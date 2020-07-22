@@ -1,0 +1,41 @@
+.main,
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+
+.form {
+  justify-content: space-evenly;
+  padding-bottom: 0;
+}
+
+.success_label {
+  color: green;
+  font-weight: bold;
+}
+
+.btn {
+  margin: .5rem 0;
+  padding: .5rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #01285e;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #62a2d3;
+  color: #0d1831;
+  cursor: pointer;
+}
+
+.disclosure {
+  font-size: .6rem;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 4rem;
+}

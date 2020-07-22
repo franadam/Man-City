@@ -1,0 +1,38 @@
+.main {
+  background-color:  #0d1830;
+  grid-area: filter;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  padding: .5rem;
+  justify-content: space-evenly;
+}
+
+.title {
+  margin-bottom: .4rem;
+  font-family: 'Righteous', cursive;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.criteria {
+  margin-top: .5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.option {
+  background: #ffffff;
+  padding: .4rem .7rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-right: .4rem;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #62a2d3;
+}
+
+.active {
+  background-color: #62d36b;
+}

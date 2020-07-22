@@ -1,0 +1,23 @@
+.main {
+  text-align: center;
+}
+
+.fInput {
+  padding: .5rem;
+  color: #01285e;
+  display: block;
+  width: 90%;
+  box-shadow: 0 0 8px hsla(222, 100%, 18%, .7) inset;
+  border: none;
+  border-radius: 5px;
+  background-color: #dff1ff;
+}
+
+.fInput::placeholder {
+  color: #98c6e9;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

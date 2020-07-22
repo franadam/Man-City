@@ -1,0 +1,81 @@
+.title {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  grid-template-rows: repeat(min-max(1fr, 3rem));
+  grid-template-areas: 'label input' 'label input';
+  gap: 1rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.label {
+  color: #0d1831;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  background-color: #113f29;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #0d3120;
+  background-color: #98e9ac;
+  border: 1px solid #0d1831;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+
+.editmatch_dialog_wrapper,
+.editplayers_dialog_wrapper {
+    padding: 20px;
+    width: 480px;
+}
+
+.select_team_layout .wrapper{
+    display: flex;
+}
+
+.select_team_layout .wrapper .left {
+    flex-grow: 1;
+}
+
+input[name=result_local],
+input[name=result_away] {
+    width: 60px;
+    text-align: center;
+    background: #98c6e9;
+    color: #ffffff;
+}
+
+.admin_submit button {
+    font-size: 20px;
+    margin: 40px 0px;
+    background: #009688;
+}

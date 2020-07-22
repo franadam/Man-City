@@ -1,0 +1,35 @@
+.main {
+  background-image: url('../../Resources/images/stripes.png');
+  font-family: 'Righteous', cursive;  
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.spinner {
+  background-color: white;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.teamCards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2.5rem 0;
+}
+
+.item {
+  transform: translateX(-200vw);
+  transition: transform ease-out .7s;
+  margin: 1rem;
+}

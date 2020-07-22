@@ -1,0 +1,47 @@
+.imageContainer {
+  position: relative;
+  top: 0;
+}
+
+.label {
+  color: #0d1831;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 1rem;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  background-color: hsla(151, 58%, 16%, 1);
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #0d3120;
+  background-color: hsla(135, 65%, 75%, 1);
+  border: 1px solid #0d1831;
+}
+
+.btnImage {
+  position: absolute;
+  padding: .5rem;
+  background-color: hsla(151, 58%, 16%, 0.6);
+  top: 0;
+  right: 30%;
+}
+
+.btnImage:hover {
+  background-color: hsla(135, 65%, 75%, 0.6);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+

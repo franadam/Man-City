@@ -1,0 +1,70 @@
+.main {
+  padding: .5rem;
+  background-color: white;
+  border:  1px solid #0d163080;
+}
+
+.main:hover {
+  background-color: #98c5e9;
+}
+.main:hover .number{
+  color: white;
+}
+
+.main:hover .picture {
+  background-color: white;
+}
+
+.picture {
+  background-color: hsla(207, 65%, 75%, 0.3);
+  border:  1px solid #0d163080;
+}
+
+.info {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.number {
+  color: #98c5e9;
+  font-size: 8rem;
+}
+
+.name {
+  color: #0e1731;
+  position: absolute;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  bottom: .5rem;
+  left: 0;
+}
+
+.name p {
+  margin: 0;
+}
+
+@media screen and (max-width:400px) {
+  .main {
+    height: 70vw;
+    width: 50vw;
+  }
+
+  .picture {
+    height: 65%;
+  }
+
+  .picture img {
+    height: 100%;
+  }
+
+  .number {
+    font-size: 5.4rem;
+  }
+
+  .name {
+    font-size: 1.1rem;
+    bottom: 1.2rem;
+  }
+}

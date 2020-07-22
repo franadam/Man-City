@@ -1,0 +1,65 @@
+.main {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: #98c5e9;
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.label {
+  color: #0d1831;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding: 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  background-color: #0d1831;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #0d1831;
+  background-color: #98c5e9;
+  border: 1px solid #0d1831;
+}
+
+.btnSwitch {
+  align-self: end;
+  background-color: #194111;
+}
+
+.btnSwitch:hover {
+  color: #194111;
+  background-color: #6f9268;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

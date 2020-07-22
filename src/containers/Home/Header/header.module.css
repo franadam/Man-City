@@ -1,0 +1,89 @@
+.header {
+  height: 90vh;
+  background-color: #0d1831;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.titles {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  text-transform: uppercase;
+  background-color: #0d1831;
+  color: white;
+  font-size: 5rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  transform: translateX(100vw);
+  transition: transform ease-out .7s;
+  font-family: 'Righteous', cursive;
+}
+
+.titles .title:first-child {
+  background-color: transparent;
+  color: white;
+  font-size: 11rem;
+  transition: transform ease-out .7s;
+  transform: rotateY(720deg);
+  margin-bottom: 0;
+}
+
+.backgroundWrapper {
+  position: relative;
+  height: 90vh;
+}
+
+.background {
+  height: 100%;
+  position: absolute;
+  top: 10%;
+  transition: opacity ease-out .7s;
+  left: 30%;
+  opacity: 0;
+}
+
+.wrapperStripe {
+  display: flex;
+  justify-content: center;
+}
+
+.stripe {
+  padding: 6rem;
+  display: block;
+  flex-grow: 1;
+  width: 130vh;
+  position: absolute;
+}
+
+@media screen and (max-width:400px) {
+.titles .title:first-child {
+  font-size: 8rem;
+  color: white;
+  text-shadow: 1px 1px 4px #0d1831;
+}
+
+.title {
+    font-size: 2rem;
+  }
+
+  .backgroundWrapper {
+    position: initial;
+  }
+  .background {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    top: unset;
+  }
+}

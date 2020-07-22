@@ -1,0 +1,22 @@
+.main {
+  background-color: #98c5e9;
+  padding: 2% 5% 4rem 2%;
+}
+
+
+.tag {
+  background-color: #0d1831;
+  color: white;
+  font-family: 'Righteous';
+  text-transform: capitalize;
+  width: max-content;
+  padding: .5rem 1rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:400px) {
+  .main {
+    padding: 2%;
+    padding-bottom: 4rem;
+  }
+}

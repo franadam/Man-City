@@ -1,0 +1,48 @@
+.main {
+  grid-area: table;
+}
+table {
+  font-family: 'Roboto', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: .5rem;
+  text-align: center;
+}
+
+th {
+  padding: .8rem .5rem;
+  text-align: left;
+  background-color: #0d1831;
+  font-family: 'Righteous', cursive;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+tr,
+.link {
+  color: #0d1831;
+  text-decoration: none;
+}
+
+tr {
+  background-color: hsla(207, 100%, 92%, 0.7);
+}
+
+tr:hover {
+  background-color: hsla(221, 41%, 59%, 0.7);
+}
+
+tr:hover td,
+tr:hover .link {
+  color: white;
+}
+
+.rows {
+  padding: 0 5rem;
+}

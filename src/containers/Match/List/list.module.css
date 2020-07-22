@@ -1,0 +1,40 @@
+.main {
+  border: 1px solid black;
+  grid-area: main;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  border-top: .1rem solid hsla(222, 58%, 12%, 0.7);
+  border-bottom: .1rem solid hsla(222, 58%, 12%, 0.7);
+}
+
+.wrapper {
+  border-right: .1rem solid hsla(207, 65%, 75%, 0.8);
+}
+
+.info {
+  flex-grow: 1;
+  padding-left: 1rem;
+  border: none;
+}
+
+.block {
+  font-family: 'Righteous', cursive;
+  flex-grow: 1;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center
+}
+
+.block div {
+  margin: .5rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-size: cover !important;
+}

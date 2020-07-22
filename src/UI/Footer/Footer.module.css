@@ -1,0 +1,11 @@
+.main {
+  background-color: #0d1831;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.logo_container {
+  height: 4rem;
+  padding: .5rem 1rem;
+}
